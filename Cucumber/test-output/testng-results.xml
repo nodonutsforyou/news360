@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test runner" duration-ms="45333" started-at="2016-11-03T09:23:10Z" finished-at="2016-11-03T09:23:55Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber.CucumberTest@33afa13b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Package with subpackages" duration-ms="45333" started-at="2016-11-03T09:23:10Z" finished-at="2016-11-03T09:23:55Z">
+      <class name="cucumber.CucumberTest">
+        <test-method status="PASS" signature="setUpSuite(java.lang.String)[pri:0, instance:cucumber.CucumberTest@33afa13b]" name="setUpSuite" is-config="true" duration-ms="72" started-at="2016-11-03T12:23:10Z" finished-at="2016-11-03T12:23:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://news360.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumber.CucumberTest@33afa13b]" name="setUpClass" is-config="true" duration-ms="890" started-at="2016-11-03T12:23:10Z" finished-at="2016-11-03T12:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber.CucumberTest@33afa13b]" name="feature" duration-ms="44184" started-at="2016-11-03T12:23:11Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2016-11-03T12:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Example Test Input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumber.CucumberTest@33afa13b]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2016-11-03T12:23:55Z" finished-at="2016-11-03T12:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:cucumber.CucumberTest@33afa13b]" name="tearDownSuite" is-config="true" duration-ms="1336" started-at="2016-11-03T12:23:55Z" finished-at="2016-11-03T12:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- cucumber.CucumberTest -->
+    </test> <!-- Package with subpackages -->
+  </suite> <!-- Test runner -->
+</testng-results>
